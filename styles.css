@@ -1,0 +1,56 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.welcome {
+  background-image: linear-gradient(120deg, #fff9 30%, #0005), url("./images/blur-boy-character.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+  text-decoration: underline;
+  text-shadow: 0 15px 10px #0002;
+}
+
+.logoImg {
+  width: 70px;
+  height: 70px;
+}
+
+h5 {
+  font-size: 24px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .welcome {
+    background-image: linear-gradient(120deg, #0007 90%, #0002), url("./images/blur-boy-character.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right !important;
+    background-attachment: fixed;
+    color: #fff;
+  }
+
+  .footer p {
+    font-size: 14px !important;
+  }
+}
